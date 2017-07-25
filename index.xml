@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SegFault Blog</title>
+    <title>localhost on SegFault Blog</title>
     <link>https://s3gm3nt4ti0nf4ult.github.io/</link>
-    <description>Recent content on SegFault Blog</description>
+    <description>Recent content in localhost on SegFault Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
     <lastBuildDate>Tue, 25 Jul 2017 14:52:32 +0200</lastBuildDate>
     
 	<atom:link href="https://s3gm3nt4ti0nf4ult.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>localhost</title>
-      <link>https://s3gm3nt4ti0nf4ult.github.io/home/</link>
-      <pubDate>Tue, 25 Jul 2017 14:52:32 +0200</pubDate>
-      
-      <guid>https://s3gm3nt4ti0nf4ult.github.io/home/</guid>
-      <description> import sys sys.stdout.write(&#39;Hello!\n&#39;) sys.stdout.flush()  Polecane linki:  Gynvael KrzaQ&amp;rsquo;S PL KrzaQ&amp;rsquo;s EN SirDruggist  </description>
-    </item>
     
     <item>
       <title>About</title>
@@ -47,7 +38,8 @@ To pierwszy wpis na moim blogu. Postaram się, żeby następny był już stricte
 Jestem tutaj z Wami dzięki uprzejmości:
 Hugo
 Github Pages
-After Dark</description>
+After Dark
+Koniecznie odwiedźcie strony polecane przeze mnie na stronie głównej ;)</description>
     </item>
     
   </channel>
