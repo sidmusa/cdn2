@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SegFault Blog</title>
+    <link>https://s3gm3nt4ti0nf4ult.github.io/</link>
+    <description>Recent content on SegFault Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Tue, 25 Jul 2017 14:52:32 +0200</lastBuildDate>
+    
+	<atom:link href="https://s3gm3nt4ti0nf4ult.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>localhost</title>
+      <link>https://s3gm3nt4ti0nf4ult.github.io/home/</link>
+      <pubDate>Tue, 25 Jul 2017 14:52:32 +0200</pubDate>
+      
+      <guid>https://s3gm3nt4ti0nf4ult.github.io/home/</guid>
+      <description> import sys sys.stdout.write(&#39;Hello!\n&#39;) sys.stdout.flush()  Polecane linki:  Gynvael KrzaQ&amp;rsquo;S PL KrzaQ&amp;rsquo;s EN SirDruggist  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://s3gm3nt4ti0nf4ult.github.io/about/</link>
+      <pubDate>Tue, 25 Jul 2017 13:08:10 +0200</pubDate>
+      
+      <guid>https://s3gm3nt4ti0nf4ult.github.io/about/</guid>
+      <description>Witam na najgorszym blogu o IT sec w sieci! Znajdziesz tutaj moje przemyślenia i writeupy ze zmagań z zadaniami CTF. Wszelkie publikowane tezy są moim prywatnym zdaniem.
+Standardowo kilka informacji:
+Imię: s3gm3nt4ti0nf4ult
+Urodzony: Tak
+Skąd: Internet
+Kontakt: segment_0xf4ult[at]protonmail.com
+PGP Key:
+-----BEGIN PGP PUBLIC KEY BLOCK----- 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 1drXKXEy2nX46otl+Fc= =2ni+ -----END PGP PUBLIC KEY BLOCK-----  </description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://s3gm3nt4ti0nf4ult.github.io/2017/07/hello-world/</link>
+      <pubDate>Tue, 25 Jul 2017 12:52:32 +0200</pubDate>
+      
+      <guid>https://s3gm3nt4ti0nf4ult.github.io/2017/07/hello-world/</guid>
+      <description>Cześć!
+To pierwszy wpis na moim blogu. Postaram się, żeby następny był już stricte techniczny :)
+Jestem tutaj z Wami dzięki uprzejmości:
+Hugo
+Github Pages
+After Dark</description>
+    </item>
+    
+  </channel>
+</rss>

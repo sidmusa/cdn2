@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SegFault Blog</title>
+    <link>https://s3gm3nt4ti0nf4ult.github.io/post/</link>
+    <description>Recent content in Posts on SegFault Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Tue, 25 Jul 2017 12:52:32 +0200</lastBuildDate>
+    
+	<atom:link href="https://s3gm3nt4ti0nf4ult.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://s3gm3nt4ti0nf4ult.github.io/2017/07/hello-world/</link>
+      <pubDate>Tue, 25 Jul 2017 12:52:32 +0200</pubDate>
+      
+      <guid>https://s3gm3nt4ti0nf4ult.github.io/2017/07/hello-world/</guid>
+      <description>Cześć!
+To pierwszy wpis na moim blogu. Postaram się, żeby następny był już stricte techniczny :)
+Jestem tutaj z Wami dzięki uprzejmości:
+Hugo
+Github Pages
+After Dark</description>
+    </item>
+    
+  </channel>
+</rss>
