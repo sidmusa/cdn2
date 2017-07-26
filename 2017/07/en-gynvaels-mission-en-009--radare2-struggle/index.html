@@ -336,7 +336,7 @@ for (int i = 0; i&lt;32; i++)
 31 = 0x17
 </code></pre>
 
-<p>Ok, so no the task becomes to be easy&hellip; We have tu guess timestamp. How to do this? In probable-timestamp period for each timestamp we generate all 32 values and create probable key. If all given data is printable that migh be the key. Remove all garbish looking output and tadadadadam!</p>
+<p>Ok, so no the task becomes to be easy&hellip; We have tu guess timestamp. How to do this? In probable-timestamp period for each timestamp we generate all 32 values and create probable key. After xoring with message if all given data is printable that migh be the key. Remove all garbish looking output and tadadadadam!</p>
 
 <p>For timestamp = <code>1500483661</code></p>
 
