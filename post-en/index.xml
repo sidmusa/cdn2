@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-ens on SegFault Blog</title>
+    <link>https://s3gm3nt4ti0nf4ult.github.io/post-en/</link>
+    <description>Recent content in Post-ens on SegFault Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Wed, 26 Jul 2017 12:34:19 +0200</lastBuildDate>
+    
+	<atom:link href="https://s3gm3nt4ti0nf4ult.github.io/post-en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EN: Gynvael&#39;s Mission En 009 &amp;&amp; radare2 struggle</title>
+      <link>https://s3gm3nt4ti0nf4ult.github.io/post-en/en-gynvaels-mission/</link>
+      <pubDate>Wed, 26 Jul 2017 12:34:19 +0200</pubDate>
+      
+      <guid>https://s3gm3nt4ti0nf4ult.github.io/post-en/en-gynvaels-mission/</guid>
+      <description>So this is the way blogging looks like&amp;hellip; :)
+ 0x00: MISSION 009 AGENDA If you are watching Gynvael&amp;rsquo;s EN streams, you know what it&amp;rsquo;s all about. After every stream, Gynvael is publishing one mission aka easy CTF task. And here is my &amp;ldquo;writeup-wannabe&amp;rdquo; for challenge number 009. Honestly that was the hardest challenge made by Gynvael. I love it, and wait for more!
+TASK: Welcome back agent 1336.</description>
+    </item>
+    
+  </channel>
+</rss>
