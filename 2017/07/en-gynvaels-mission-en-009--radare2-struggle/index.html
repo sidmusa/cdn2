@@ -222,7 +222,7 @@ P.S. I'll show/explain the solution on the stream next week.
 
 <p><code>radare2 mission009.o</code></p>
 
-<p>and <code>i</code> command will give masic information (like <code>rabin2 -I mission009.o</code>)</p>
+<p>and <code>i</code> command will give basic information (like <code>rabin2 -I mission009.o</code>)</p>
 
 <p>This is an output:</p>
 
@@ -288,7 +288,7 @@ rand
 
 <p><img src="/pics/gm009_004.PNG" alt="Dump" /></p>
 
-<p>Ok, that&rsquo;s a very huge image. But I like it! Fortunately I do not have to do PrtScr screen by screen i my terminal.</p>
+<p>Ok, that&rsquo;s a very huge image. But I like it! Fortunately I do not have to do PrtScr screen by screen in my terminal.</p>
 
 <p>General analysis of first two blocks, gives us general view of key generation. In first block, some strings (shown by <code>strings</code> command) are stored in the memory, then funciton <a href="https://msdn.microsoft.com/en-us/library/1f4c8f33.aspx">_time64</a> is callend and then function <a href="https://msdn.microsoft.com/en-us/library/aa272944">srand</a> is called. Key generation (second block) depends on system timestamp, so the time since <code>January 1, 1970</code>. That&rsquo;s a lot of values to check, but what came to my mind was that date in mission description.</p>
 
