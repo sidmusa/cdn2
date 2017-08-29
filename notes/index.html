@@ -4,8 +4,10 @@
     <meta name="generator" content="Hugo 0.26-DEV" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>localhost | SegFault Blog</title>
-    <meta name="description" content="">
+    <title>Luźne notatki | SegFault Blog</title>
+    <meta name="description" content="Zestaw &ldquo;zawszetegozapominam&rdquo;/&ldquo;przydasie&rdquo; - żeby nie szukać.
+Assembler x86 lea - load effective address
+lea eax, [ebp-4] ; wylicza wyrażenie i wrzuca do eax  ARM assembler str - store word ldr - load word ; postfixy --h - half word &lt;unsigned&gt; --sh - half word &lt;signed&gt; --b - bajt &lt;unsigned&gt; --sb - bajt &lt;signed&gt; rejestry: R0-R10 ; {r0-r10} GPRS, rejestry ogólnego zastosowania R11 = FP ; Frame Pointer R12 = IP ; Intra Procedural Call, brak odpowiednika w x86 R13 = SP ; Stack pointer R14 = LR ; Link Register, tam trafia adres powrotu po wywołaniu funkcji &lt;return address&gt; R15 = PC ; Program Counter, w zalezności od stanu Thumb/ARM pokazuje current address &#43; 4/8.">
     <meta name="keywords" content="">
     
     
@@ -16,14 +18,18 @@
   <meta name="author" content="">
 
 
-    <meta property="og:title" content="localhost" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://s3gm3nt4ti0nf4ult.github.io/" />
+    <meta property="og:title" content="Luźne notatki" />
+<meta property="og:description" content="Zestaw &ldquo;zawszetegozapominam&rdquo;/&ldquo;przydasie&rdquo; - żeby nie szukać.
+Assembler x86 lea - load effective address
+lea eax, [ebp-4] ; wylicza wyrażenie i wrzuca do eax  ARM assembler str - store word ldr - load word ; postfixy --h - half word &lt;unsigned&gt; --sh - half word &lt;signed&gt; --b - bajt &lt;unsigned&gt; --sb - bajt &lt;signed&gt; rejestry: R0-R10 ; {r0-r10} GPRS, rejestry ogólnego zastosowania R11 = FP ; Frame Pointer R12 = IP ; Intra Procedural Call, brak odpowiednika w x86 R13 = SP ; Stack pointer R14 = LR ; Link Register, tam trafia adres powrotu po wywołaniu funkcji &lt;return address&gt; R15 = PC ; Program Counter, w zalezności od stanu Thumb/ARM pokazuje current address &#43; 4/8." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://s3gm3nt4ti0nf4ult.github.io/notes/" />
 
 
 
-<meta property="og:updated_time" content="2017-07-25T14:52:32&#43;02:00"/>
+<meta property="article:published_time" content="2017-08-26T22:39:38&#43;02:00"/>
+<meta property="article:modified_time" content="2017-08-26T22:39:38&#43;02:00"/>
+
 
 
 
@@ -42,17 +48,9 @@
     <meta name="theme-color" content="#000">
 
     
-      
-
-
-
-
     
     
-    
-      <link href="https://s3gm3nt4ti0nf4ult.github.io/index.xml" rel="alternate" type="application/rss+xml" title="SegFault Blog" />
-    
-    <link rel="canonical" href="https://s3gm3nt4ti0nf4ult.github.io/">
+    <link rel="canonical" href="https://s3gm3nt4ti0nf4ult.github.io/notes/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -135,7 +133,7 @@ article [itemprop="description"] {
   <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
     
     
-      <a itemprop="url" class="active" href="/"><span itemprop="name">#home</span></a>
+      <a itemprop="url" class="" href="/"><span itemprop="name">#home</span></a>
     
       <a itemprop="url" class="" href="/post/"><span itemprop="name">#post</span></a>
     
@@ -149,44 +147,51 @@ article [itemprop="description"] {
 </header>
     <main>
   <header>
-    <h1>localhost</h1>
+    <h1>Luźne notatki</h1>
   </header>
   
 
-<p><img src="/avatar/favico.png" alt="favicon.png" /></p>
+<p>Zestaw &ldquo;zawszetegozapominam&rdquo;/&ldquo;przydasie&rdquo; -  żeby nie szukać.</p>
 
-<pre><code class="language-python">import sys
+<h3 id="assembler-x86">Assembler x86</h3>
 
-m = '0x68656c6c6f'
-m = m[2:]
-message = ''.join([chr(int(''.join(c), 16)) for c in zip(m[0::2], m[1::2])])
-sys.stdout.write(message+'!!!\n')
-sys.stdout.flush()
+<p><code>lea</code> - load effective address</p>
+
+<pre><code>lea eax, [ebp-4]                ; wylicza wyrażenie i wrzuca do eax
+
 </code></pre>
 
+<h3 id="arm-assembler">ARM assembler</h3>
 
+<pre><code>str     - store word
+ldr     - load word
+; postfixy
+--h     - half word &lt;unsigned&gt;
+--sh    - half word &lt;signed&gt;
+--b     - bajt &lt;unsigned&gt;
+--sb    - bajt &lt;signed&gt;
 
-
-<div class="alert ">
-  <pre><code>me@mycomputer:/asdf/myfiles$ 
-λ python file.py
-hello!!!
-me@mycomputer:/asdf/myfiles$ 
-λ
+rejestry:
+R0-R10      ; {r0-r10} GPRS, rejestry ogólnego zastosowania
+R11 = FP    ; Frame Pointer 
+R12 = IP    ; Intra Procedural Call, brak odpowiednika w x86
+R13 = SP    ; Stack pointer
+R14 = LR    ; Link Register, tam trafia adres powrotu po wywołaniu funkcji &lt;return address&gt;
+R15 = PC    ; Program Counter, w zalezności od stanu Thumb/ARM pokazuje current address + 4/8. Taki &quot;RIP/EIP&quot;.
+; ARM instr size = 4 bajty
+; Thumb (v1/v2)  = 2 bajty 
+CPSR        ; EFAGS register, bardziej rozbudowany pod ARM, Current Program Status Register
 </code></pre>
 
-</div>
+<p>Thumb vs ARM:
+ARM intrukcje mają 32 bity. Thumb ma 16 bitów, Thumb v2 dodatkowo 32 bitowe instrukcje Thumb.</p>
 
+<p>32 bitowe instrukcje mają sufix <code>.w</code></p>
 
-<h3 id="polecane-linki">Polecane linki:</h3>
+<p>&ldquo;Barrel shifter&rdquo; - połączone instrukcje przesunięć bitowych z innymi instr. Mniejsza objętość kodu.</p>
 
-<ol>
-<li><a href="http://gynvael.coldwind.pl/">Gynvael</a></li>
-<li><a href="http://dsp.krzaq.cc">KrzaQ&rsquo;S PL</a></li>
-<li><a href="http://dev.krzaq.cc">KrzaQ&rsquo;s EN</a></li>
-<li><a href="https://github.com/corkami">Corkami</a></li>
-<li><a href="https://druggist.github.io/">SirDruggist</a></li>
-</ol>
+<pre><code>mov  R12, R1, LSL #2    ; R12 = (R1 &lt;&lt; 2) ; R12 = R1 * 4
+</code></pre>
 
 </main>
     <footer>

@@ -12,6 +12,27 @@
     
     
     <item>
+      <title>Luźne notatki</title>
+      <link>https://s3gm3nt4ti0nf4ult.github.io/notes/</link>
+      <pubDate>Sat, 26 Aug 2017 22:39:38 +0200</pubDate>
+      
+      <guid>https://s3gm3nt4ti0nf4ult.github.io/notes/</guid>
+      <description>Zestaw &amp;ldquo;zawszetegozapominam&amp;rdquo;/&amp;ldquo;przydasie&amp;rdquo; - żeby nie szukać.
+Assembler x86 lea - load effective address
+lea eax, [ebp-4] ; wylicza wyrażenie i wrzuca do eax  ARM assembler str - store word ldr - load word ; postfixy --h - half word &amp;lt;unsigned&amp;gt; --sh - half word &amp;lt;signed&amp;gt; --b - bajt &amp;lt;unsigned&amp;gt; --sb - bajt &amp;lt;signed&amp;gt; rejestry: R0-R10 ; {r0-r10} GPRS, rejestry ogólnego zastosowania R11 = FP ; Frame Pointer R12 = IP ; Intra Procedural Call, brak odpowiednika w x86 R13 = SP ; Stack pointer R14 = LR ; Link Register, tam trafia adres powrotu po wywołaniu funkcji &amp;lt;return address&amp;gt; R15 = PC ; Program Counter, w zalezności od stanu Thumb/ARM pokazuje current address + 4/8.</description>
+    </item>
+    
+    <item>
+      <title>PL: Misja Gynveala PL 009</title>
+      <link>https://s3gm3nt4ti0nf4ult.github.io/2017/08/pl-misja-gynveala-pl-009/</link>
+      <pubDate>Sat, 19 Aug 2017 23:30:13 +0200</pubDate>
+      
+      <guid>https://s3gm3nt4ti0nf4ult.github.io/2017/08/pl-misja-gynveala-pl-009/</guid>
+      <description>0x00 Agenda misji Ostatni stream Gyna, był dość luźny. W ramach wakacyjnej przerwy, OP skupił się na przedstawieniu swojej biblioteczki. Temat ciekawy z wielu powodów. Przede wszystkim regał z książkami stanowi nieodłączną część ekspozycji streamowej, stąd pewnie tak duże zainteresowanie tematem. Polecam obejrzeć odcinek, bo oprócz sporej dawki ciekawej beletrystyki znajdziecie tam sporo informatycznej i hackerskiej klasyki.
+Nasze zadanie MISJA 009 goo.gl/q49Fw7 DIFFICULTY: ██████░░░░ [6/10] ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅ Do naszych techników trafiło nagranie, w postaci pliku dźwiękowego, z osobliwymi piskami.</description>
+    </item>
+    
+    <item>
       <title>EN: Gynvael&#39;s Mission En 009 &amp;&amp; radare2 struggle</title>
       <link>https://s3gm3nt4ti0nf4ult.github.io/2017/07/en-gynvaels-mission-en-009--radare2-struggle/</link>
       <pubDate>Wed, 26 Jul 2017 12:34:19 +0200</pubDate>
@@ -34,7 +55,7 @@ Imię: s3gm3nt4ti0nf4ult
 Urodzony: Tak
 Skąd: Internet
 Kontakt: segment_0xf4ult[at]protonmail.com
-Hi! Welcome to the worst blog about IT sec in the Internet! I&amp;rsquo;m trying to find out if blogging is for me. You will find here some CTF writeups, my thoughts related to security and my notes.</description>
+Hi! Welcome to the worst blog about IT sec on the Internet! I&amp;rsquo;m trying to find out if blogging is for me. You will find here some CTF writeups, my thoughts related to security and my notes.</description>
     </item>
     
     <item>
